@@ -26,3 +26,6 @@ jobs:
 
             - name: Run Tests
               run: npm run test-component
+            
+            - name: Publish Test Summary Results
+              run: npx github-actions-ctrf ctrf/ctrf-report.json
