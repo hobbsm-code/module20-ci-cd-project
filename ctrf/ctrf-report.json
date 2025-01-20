@@ -1,0 +1,52 @@
+{
+  "results": {
+    "tool": {
+      "name": "cypress"
+    },
+    "summary": {
+      "tests": 3,
+      "failed": 0,
+      "passed": 3,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1737392526082,
+      "stop": 1737392529519
+    },
+    "tests": [
+      {
+        "name": "Quiz Component should start the quiz and display the first question",
+        "status": "passed",
+        "duration": 155,
+        "rawStatus": "passed",
+        "type": "e2e",
+        "filePath": "cypress\\component\\Quiz.cy.jsx",
+        "retries": 0,
+        "flaky": false,
+        "browser": "electron 118.0.5993.159"
+      },
+      {
+        "name": "Quiz Component should answer questions and complete the quiz",
+        "status": "passed",
+        "duration": 213,
+        "rawStatus": "passed",
+        "type": "e2e",
+        "filePath": "cypress\\component\\Quiz.cy.jsx",
+        "retries": 0,
+        "flaky": false,
+        "browser": "electron 118.0.5993.159"
+      },
+      {
+        "name": "Quiz Component should restart the quiz after completion",
+        "status": "passed",
+        "duration": 283,
+        "rawStatus": "passed",
+        "type": "e2e",
+        "filePath": "cypress\\component\\Quiz.cy.jsx",
+        "retries": 0,
+        "flaky": false,
+        "browser": "electron 118.0.5993.159"
+      }
+    ]
+  }
+}
