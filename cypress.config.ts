@@ -1,4 +1,5 @@
 import { defineConfig } from 'cypress';
+import { GenerateCtrfReport } from 'cypress-ctrf-json-reporter';
 import viteConfig from './vite.config';
 
 export default defineConfig({
@@ -9,6 +10,11 @@ export default defineConfig({
       bundler: 'vite',
       viteConfig,
     },
+    setupNodeEvents(on) {
+      new GenerateCtrfReport({
+        on
+      });
+    }
   },
 
   e2e: {
